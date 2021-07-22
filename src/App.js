@@ -10,17 +10,17 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router basename={`/${process.env.PUBLIC_URL}`}>
+    <Router>
       <div>
         <Navbar />
         <Wrapper>
-          <Switch>
-          <Redirect exact from="/portfolio-test/" to="/portfolio-test/about" />
+          {/* <Switch> */}
+          {/* <Redirect exact from="/portfolio-test/" to="/portfolio-test/about" /> */}
           <Route exact path="/portfolio-test/" component={About} />
           <Route exact path="/portfolio-test/about" component={About} />
           <Route exact path="/portfolio-test/portfolio" component={Portfolio} />
           <Route exact path="/portfolio-test/contact" component={Contact} />
-          </Switch>
+          {/* </Switch> */}
         </Wrapper>
         <Footer />
       </div>
