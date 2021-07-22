@@ -17,15 +17,17 @@ function NavBar() {
       <Navbar.Brand href="/portfolio-test/">Greg Scott</Navbar.Brand>
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link 
-          href="/portfolio-test/about" 
+        <Nav.Link
+          as={Link}
+          to="/portfolio-test/about" 
             className={
               window.location.pathname === "/portfolio-test/" || window.location.pathname === "/portfolio-test/about" ? "nav-link active" : "nav-link"}> 
               {addressCard}
               About
         </Nav.Link>
         <Nav.Link
-          href="/portfolio-test/portfolio" 
+          as={Link}
+          to="/portfolio-test/portfolio" 
             className={
               window.location.pathname === "/portfolio-test/portfolio" ? "nav-link active" : "nav-link"}>
               {stream}
