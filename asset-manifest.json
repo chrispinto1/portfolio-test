@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-test/static/css/main.dd698dc8.chunk.css",
-    "main.js": "/portfolio-test/static/js/main.289a1dd1.chunk.js",
-    "main.js.map": "/portfolio-test/static/js/main.289a1dd1.chunk.js.map",
-    "runtime-main.js": "/portfolio-test/static/js/runtime-main.bc082a45.js",
-    "runtime-main.js.map": "/portfolio-test/static/js/runtime-main.bc082a45.js.map",
+    "main.js": "/portfolio-test/static/js/main.bca3603a.chunk.js",
+    "main.js.map": "/portfolio-test/static/js/main.bca3603a.chunk.js.map",
+    "runtime-main.js": "/portfolio-test/static/js/runtime-main.810ad043.js",
+    "runtime-main.js.map": "/portfolio-test/static/js/runtime-main.810ad043.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/portfolio-test/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.83a3bd54.chunk.js": "/portfolio-test/static/js/2.83a3bd54.chunk.js",
-    "static/js/2.83a3bd54.chunk.js.map": "/portfolio-test/static/js/2.83a3bd54.chunk.js.map",
+    "static/js/2.73c6923e.chunk.js": "/portfolio-test/static/js/2.73c6923e.chunk.js",
+    "static/js/2.73c6923e.chunk.js.map": "/portfolio-test/static/js/2.73c6923e.chunk.js.map",
     "index.html": "/portfolio-test/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/portfolio-test/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.dd698dc8.chunk.css.map": "/portfolio-test/static/css/main.dd698dc8.chunk.css.map",
-    "static/js/2.83a3bd54.chunk.js.LICENSE.txt": "/portfolio-test/static/js/2.83a3bd54.chunk.js.LICENSE.txt",
+    "static/js/2.73c6923e.chunk.js.LICENSE.txt": "/portfolio-test/static/js/2.73c6923e.chunk.js.LICENSE.txt",
     "static/media/dayplanner.42e354c5.png": "/portfolio-test/static/media/dayplanner.42e354c5.png",
     "static/media/destination-goals.e7eaa5c0.png": "/portfolio-test/static/media/destination-goals.e7eaa5c0.png",
     "static/media/devsync.e184bed0.png": "/portfolio-test/static/media/devsync.e184bed0.png",
@@ -23,10 +23,10 @@
     "static/media/workout-tracker.709c3e6c.png": "/portfolio-test/static/media/workout-tracker.709c3e6c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc082a45.js",
+    "static/js/runtime-main.810ad043.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.83a3bd54.chunk.js",
+    "static/js/2.73c6923e.chunk.js",
     "static/css/main.dd698dc8.chunk.css",
-    "static/js/main.289a1dd1.chunk.js"
+    "static/js/main.bca3603a.chunk.js"
   ]
 }
