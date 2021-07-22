@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Wrapper>
           {/* <Switch> */}
-          {/* <Redirect exact from="/portfolio-test/" to="/portfolio-test/about" /> */}
+          <Redirect exact from="/portfolio-test/" to="/portfolio-test/about" />
           <Route exact path="/portfolio-test/" component={About} />
           <Route exact path="/portfolio-test/about" component={About} />
           <Route exact path="/portfolio-test/portfolio" component={Portfolio} />
