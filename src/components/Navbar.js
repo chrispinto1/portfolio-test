@@ -14,21 +14,21 @@ const mobile = <FontAwesomeIcon icon={faMobileAlt} />
 function NavBar() {
     return (
     <Navbar bg="light" variant="light">
-      <Navbar.Brand href="/scott-portfolio/">Greg Scott</Navbar.Brand>
+      <Navbar.Brand href="/portfolio-test/">Greg Scott</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link 
           as={Link}
-          href="/scott-portfolio/about" 
+          href="/portfolio-test/about" 
             className={
-              window.location.pathname === "/scott-portfolio/" || window.location.pathname === "/scott-portfolio/about" ? "nav-link active" : "nav-link"}> 
+              window.location.pathname === "/portfolio-test/" || window.location.pathname === "/portfolio-test/about" ? "nav-link active" : "nav-link"}> 
               {addressCard}
               About
               </Nav.Link>
         <Nav.Link 
           as={Link}
-          href="/scott-portfolio/portfolio" 
+          href="/portfolio-test/portfolio" 
             className={
-              window.location.pathname === "/scott-portfolio/portfolio" ? "nav-link active" : "nav-link"}>
+              window.location.pathname === "/portfolio-test/portfolio" ? "nav-link active" : "nav-link"}>
               {stream}
               Portfolio
               </Nav.Link>

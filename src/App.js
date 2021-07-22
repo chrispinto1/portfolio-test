@@ -14,11 +14,11 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Redirect exact from="/scott-portfolio/" to="/scott-portfolio/about" />
-          <Route exact path="/scott-portfolio/" component={About} />
-          <Route exact path="/scott-portfolio/about" component={About} />
-          <Route exact path="/scott-portfolio/portfolio" component={Portfolio} />
-          <Route exact path="/scott-portfolio/contact" component={Contact} />
+          <Redirect exact from="/portfolio-test/" to="/portfolio-test/about" />
+          <Route exact path="/portfolio-test/" component={About} />
+          <Route exact path="/portfolio-test/about" component={About} />
+          <Route exact path="/portfolio-test/portfolio" component={Portfolio} />
+          <Route exact path="/portfolio-test/contact" component={Contact} />
         </Wrapper>
         <Footer />
       </div>

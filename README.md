@@ -23,4 +23,4 @@ Get to know me and my projects by going through my porfolio page! I used a simpl
 - [Deployed App](https://gabel35.github.io/Spyglass/)
 
 ## Links
-- [Portfolio](https://gtscott90.github.io/scott-portfolio/)
+- [Portfolio](https://gtscott90.github.io/portfolio-test/)
